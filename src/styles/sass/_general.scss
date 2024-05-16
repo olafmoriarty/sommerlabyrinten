@@ -1,0 +1,85 @@
+@use 'mixins' as m;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--electric-blue);
+	background-size: contain;
+	background-attachment: fixed;
+	font-family: "Roboto", sans-serif;
+	color: var(--black);
+	
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 1rem;
+}
+
+main {
+	padding: 1rem 1rem calc(var(--bottom-nav-height) + 1rem);
+}
+
+h1 {
+	text-shadow: -.125rem -.125rem .125rem var(--seasalt), -.125rem .125rem .125rem var(--seasalt), .125rem -.125rem .125rem var(--seasalt), .125rem .125rem .125rem var(--seasalt);
+	font-size: 2rem;
+	font-family: var(--title-font);
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+main h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	font-family: var(--title-font);
+	text-shadow: -.125rem -.125rem .125rem var(--seasalt), -.125rem .125rem .125rem var(--seasalt), .125rem -.125rem .125rem var(--seasalt), .125rem .125rem .125rem var(--seasalt);
+}
+
+.logo {
+	width: 100%;
+	max-width: 495px;
+	image-rendering: pixelated;
+}
+
+.text-box {
+	p, h1, h2 {
+		margin-bottom: 1rem;
+	}
+}
+
+.content-box {
+	background: var(--seasalt);
+	padding: .5rem;
+	text-align: left;
+	border-radius: .25rem;
+	box-shadow: var(--default-box-shadow);
+	margin-bottom: 1rem;
+
+	h2 {
+		text-shadow: none;
+	}
+
+	button {
+		@include m.green-button;
+	}
+}
+
+.close-window-icon {
+	position: absolute;
+	top: .5rem;
+	right: .5rem;
+	display: block;
+	background: transparent;
+	font: inherit;
+	color: inherit;
+	border: none;
+	font-size: 1.5rem;
+}

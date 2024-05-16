@@ -1,0 +1,59 @@
+.title-screen {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	min-height: 100svh;
+	gap: 1rem;
+	font-family: var(--title-font);
+
+	h2 {
+		margin: 0;
+	}
+
+	button {
+		padding: .5rem;
+		width: initial;
+		display: block;	
+		margin: 0 auto;
+		background-color: var(--spring-green);
+		font-weight: bold;
+		color: var(--black);
+		border-radius: .25rem;
+		border: solid 2px var(--dark-slate-grey);
+	}
+	
+}
+
+
+.city-selector {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+
+	label {
+		display: block;
+		padding: .5rem;
+		border: solid 1px var(--dark-slate-grey);
+		border-radius: .25rem;
+		background: var(--dark-slate-grey);
+		color: var(--seasalt);
+
+		&:has(input:checked) {
+			color: var(--dark-slate-grey);
+			background: var(--seasalt);
+
+			&::before {
+				content: "<< ";
+			}
+			
+			&::after {
+				content: " >>";
+			}
+		}
+	}
+
+	input[type=radio] {
+		display: none;
+	}
+}

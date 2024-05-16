@@ -1,0 +1,135 @@
+[
+	{
+		"id": 1,
+		"name": "Operahuset i Oslo",
+		"solvedDesc": "Den Norske Opera & Ballett er landets største musikk- og scenekunstinstitusjon. Det nye Operahuset i Bjørvika ble åpnet i 2008, har fått flere priser og er fredet av Riksantikvaren. Bygningen er det første operahuset i verden der man kan gå på taket.",
+		"title": "Oh-ooh-whoa-oh-oh-oh-oh",
+		"desc": "Denne bygningen deler navn med en nettleser. Plassen den ligger på er oppkalt etter en person som har fått en stjerne på Hollywood Walk of Fame.",
+		"lat": 59.908, 
+		"long": 10.75313,
+		"questions": [
+			{
+				"question": "Når ble Operahuset åpnet?",
+				"options": [
+					"2008",
+					"1911",
+					"1977"
+				]
+			},
+			{
+				"question": "Hvem var operaens første sjef?",
+				"options": [
+					"Kirsten Flagstad",
+					"Odd Grüner-Hegge",
+					"Annilese Miskimmon"
+				]
+			},
+			{
+				"question": "Når og hvor oppstod opera som teaterform?",
+				"options": [
+					"Italia, 1500-tallet",
+					"India, 800-tallet",
+					"Storbritannia, 1800-tallet"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 2
+	},
+	{
+		"id": 2,
+		"name": "Monolitten",
+		"title": "121 venner",
+		"lat": 59.92766,
+		"long": 10.69890,
+		"desc": "Navnet på denne gjenstanden, som er 17 meter høy, kommer av det greske ordet for \"én stein\".",
+		"questions": [
+			{
+				"question": "Hvor mange skulpturer er det i Vigelandsparken?",
+				"options": [
+					"214",
+					"58",
+					"937"
+				]
+			},
+			{
+				"question": "Når ble Monolitten avduket?",
+				"options": [
+					"1944",
+					"1928",
+					"1919"
+				]
+			},
+			{
+				"question": "Hvor kommer steinblokken som Monolitten er laget av fra?",
+				"options": [
+					"Iddefjorden, Østfold",
+					"Skorovas, Nord-Trøndelag",
+					"Huangshan, Kina"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 2
+	},
+	{
+		"id": 3,
+		"name": "Nobels fredssenter",
+		"title": "Dynamitt",
+		"desc": "Museum dedikert til arvingene til en svensk kjemiker og ideene deres.",
+		"lat": 59.91161,
+		"long": 10.7306,
+		"questions": [
+
+		],
+		"rewardType": "clue",
+		"rewardId": 2
+	},
+	{
+		"id": 4,
+		"name": "Deichman Grünerløkka",
+		"title": "Eksponentielt",
+		"desc": "Et populært sted for tegneserieelskere, som ligger i den eldste bygningen av denne typen i Norge.",
+		"lat": 59.92079,
+		"long": 10.76023,
+		"questions": [
+			{
+				"question": "Deichman Grünerløkka er Norges eldste bibliotekbygning. Når åpnet den?",
+				"options": [
+					"1914",
+					"1785",
+					"1933"
+				]
+			},
+			{
+				"question": "Hvilken tegneseriefestival arrangeres på Schous plass hver sommer?",
+				"options": [
+					"Oslo Comics Expo",
+					"Raptusfestivalen",
+					"Torucon"
+				]
+			},
+			{
+				"question": "Hvor mange barnebøker (fag- og skjønnlitteratur) har Deichman bibliotek i samlingen sin (2022-tall)?",
+				"options": [
+					"Cirka 410 000",
+					"Cirka 190 000",
+					"Cirka 340 000"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 2
+	},
+	{
+		"id": 5,
+		"name": "Naturhistorisk museum",
+		"title": "Det er farlig å gå alene",
+		"desc": "Zelda fra Montana flytter inn i denne bygningen i september 2024.",
+		"lat": 59.9197830,
+		"long": 10.7717140,
+		"questions": [],
+		"rewardType": "clue",
+		"rewardId": 2
+	}
+]

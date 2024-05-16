@@ -1,0 +1,25 @@
+.stats {
+	display: flex;
+	margin-bottom: 2rem;
+	gap: 1rem;
+	justify-content: center;
+
+	article {
+		display: flex;
+		color: var(--black);
+		background-color: var(--seasalt);
+		padding: .25rem;
+		border-radius: .25rem;
+		box-shadow: var(--default-box-shadow);
+
+		p {
+			padding: 0 .5rem;
+			font-weight: bold;
+			font-family: var(--title-font);
+		}
+
+		.icon {
+			color: var(--dark-slate-grey);
+		}
+	}
+}

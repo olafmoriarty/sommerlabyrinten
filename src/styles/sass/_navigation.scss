@@ -1,0 +1,49 @@
+.bottom-navigation {
+	position: fixed;
+	font-family: "Roboto", sans-serif;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: var(--seasalt);
+	background: var(--black);
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	height: var(--bottom-nav-height);
+	border-top: solid 1px var(--seasalt);
+}
+
+.bottom-navigation p {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+.bottom-navigation a {
+	flex-basis: min(20%, 100px);
+	text-align: center;
+	border: none;
+	background: transparent;
+	color: inherit;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	padding-top: .5rem;
+}
+
+.bottom-navigation a.active {
+	color: var(--spring-green);
+}
+
+.bottom-navigation a p {
+	margin: 0;
+}
+
+.bottom-navigation .icon {
+	font-size: 1.25rem;
+	padding: 0.125rem;
+}
+
+.bottom-navigation .icon-label {
+	font-size: .75rem;
+}

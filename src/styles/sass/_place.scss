@@ -1,0 +1,69 @@
+@use 'mixins' as m;
+
+.place {
+	background: var(--seasalt);
+	padding: .5rem;
+	text-align: center;
+	border-radius: .25rem;
+	box-shadow: var(--default-box-shadow);
+	margin-bottom: 1rem;
+
+	h3 {
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		text-align: left;
+		font-family: var(--title-font);
+	}
+	
+	h4 {
+		font-size: 1rem;
+		margin-top: 1.5rem;
+		margin-bottom: .5rem;
+		font-weight: bold;
+		font-family: var(--title-font);
+	}
+	
+	p {
+		margin-bottom: .5rem;
+	}
+	
+	.distance {
+		font-size: 2rem;
+		font-weight: bold;
+		font-family: var(--title-font);
+	}
+	
+	&.collapsed {
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+		color: var(--seasalt);
+		background-color: var(--dark-slate-grey);
+		font-family: var(--title-font);
+
+		&.solved {
+			background-color: var(--black);
+			font-style: italic;
+		}
+
+		p {
+			margin: 0;
+		}
+		
+		.distance {
+			font-size: .8rem;
+		}
+	}
+}
+
+.find-clue {
+	@include m.green-button;
+}
+
+.find-clue-desc {
+	font-size: .8rem;
+	color: var(--dark-slate-grey);
+	font-style: italic;
+	margin-top: .25rem;
+}
+

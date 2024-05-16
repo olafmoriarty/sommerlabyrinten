@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root {
+  --black: #0f0f0f;
+  --raspberry: #d81159;
+  --seasalt: #fcfafa;
+  --spring-green: #2afc98;
+  --electric-blue: linear-gradient(0deg, #2de1fc, #08b2e3);
+  --dark-slate-grey: #214f4b;
+  --bottom-nav-height: 3.5rem;
+  --title-font: "Share Tech Mono", sans-serif;
+  --default-box-shadow: .25rem .25rem .25rem var(--dark-slate-grey);
+  --black-box-shadow: .25rem .25rem .25rem var(--black);
+}
+
+@keyframes blinking {
+  0% {
+    background: var(--seasalt);
+  }
+  25% {
+    background: var(--seasalt);
+  }
+  50% {
+    background: var(--dark-slate-grey);
+  }
+  75% {
+    background: var(--dark-slate-grey);
+  }
+  100% {
+    background: var(--seasalt);
+  }
+}
+@keyframes bounce-in {
+  0% {
+    transform: translateY(50vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes bounce-out {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50rem);
+  }
+}
+@keyframes hide-text {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes wrong-button {
+  0% {
+    background: var(--dark-slate-grey);
+  }
+  50% {
+    background: #800000;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes right-button {
+  0% {
+    color: var(--seasalt);
+    background: var(--dark-slate-grey);
+  }
+  50% {
+    color: var(--black);
+    background: var(--spring-green);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--electric-blue);
+  background-size: contain;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 1rem 1rem calc(var(--bottom-nav-height) + 1rem);
+}
+
+h1 {
+  text-shadow: -0.125rem -0.125rem 0.125rem var(--seasalt), -0.125rem 0.125rem 0.125rem var(--seasalt), 0.125rem -0.125rem 0.125rem var(--seasalt), 0.125rem 0.125rem 0.125rem var(--seasalt);
+  font-size: 2rem;
+  font-family: var(--title-font);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: var(--title-font);
+  text-shadow: -0.125rem -0.125rem 0.125rem var(--seasalt), -0.125rem 0.125rem 0.125rem var(--seasalt), 0.125rem -0.125rem 0.125rem var(--seasalt), 0.125rem 0.125rem 0.125rem var(--seasalt);
+}
+
+.logo {
+  width: 100%;
+  max-width: 495px;
+  image-rendering: pixelated;
+}
+
+.text-box p, .text-box h1, .text-box h2 {
+  margin-bottom: 1rem;
+}
+
+.content-box {
+  background: var(--seasalt);
+  padding: 0.5rem;
+  text-align: left;
+  border-radius: 0.25rem;
+  box-shadow: var(--default-box-shadow);
+  margin-bottom: 1rem;
+}
+.content-box h2 {
+  text-shadow: none;
+}
+.content-box button {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: var(--spring-green);
+  border-radius: 0.25rem;
+  font-family: var(--title-font);
+}
+
+.close-window-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: block;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.title-screen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  min-height: 100svh;
+  gap: 1rem;
+  font-family: var(--title-font);
+}
+.title-screen h2 {
+  margin: 0;
+}
+.title-screen button {
+  padding: 0.5rem;
+  width: initial;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--spring-green);
+  font-weight: bold;
+  color: var(--black);
+  border-radius: 0.25rem;
+  border: solid 2px var(--dark-slate-grey);
+}
+
+.city-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.city-selector label {
+  display: block;
+  padding: 0.5rem;
+  border: solid 1px var(--dark-slate-grey);
+  border-radius: 0.25rem;
+  background: var(--dark-slate-grey);
+  color: var(--seasalt);
+}
+.city-selector label:has(input:checked) {
+  color: var(--dark-slate-grey);
+  background: var(--seasalt);
+}
+.city-selector label:has(input:checked)::before {
+  content: "<< ";
+}
+.city-selector label:has(input:checked)::after {
+  content: " >>";
+}
+.city-selector input[type=radio] {
+  display: none;
+}
+
+.stats {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+.stats article {
+  display: flex;
+  color: var(--black);
+  background-color: var(--seasalt);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--default-box-shadow);
+}
+.stats article p {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+.stats article .icon {
+  color: var(--dark-slate-grey);
+}
+
+.place {
+  background: var(--seasalt);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  box-shadow: var(--default-box-shadow);
+  margin-bottom: 1rem;
+}
+.place h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-family: var(--title-font);
+}
+.place h4 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+.place p {
+  margin-bottom: 0.5rem;
+}
+.place .distance {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+.place.collapsed {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: var(--seasalt);
+  background-color: var(--dark-slate-grey);
+  font-family: var(--title-font);
+}
+.place.collapsed.solved {
+  background-color: var(--black);
+  font-style: italic;
+}
+.place.collapsed p {
+  margin: 0;
+}
+.place.collapsed .distance {
+  font-size: 0.8rem;
+}
+
+.find-clue {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: var(--spring-green);
+  border-radius: 0.25rem;
+  font-family: var(--title-font);
+}
+
+.find-clue-desc {
+  font-size: 0.8rem;
+  color: var(--dark-slate-grey);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.show-journey {
+  display: block;
+  margin: 1rem 0 0 auto;
+  padding: 0.25rem 0.5rem;
+  background: var(--dark-slate-grey);
+  color: var(--seasalt);
+  border-radius: 0.25rem;
+  font-family: var(--title-font);
+}
+
+.journey ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.journey li {
+  border: solid 1px var(--dark-slate-grey);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: center;
+  font-family: var(--title-font);
+}
+.journey li .emoji {
+  font-size: 2rem;
+}
+.journey .entur {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.journey-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.trivia-place {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: var(--dark-slate-grey);
+  color: var(--seasalt);
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.trivia-place h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.trivia {
+  background: var(--seasalt);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--black-box-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.trivia .question {
+  font-weight: bold;
+  color: var(--dark-slate-grey);
+}
+.trivia button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  color: var(--seasalt);
+  background-color: var(--dark-slate-grey);
+  border-radius: 1rem;
+}
+.trivia .progress-bar {
+  margin-bottom: 1rem;
+}
+.trivia.is-clicked .question {
+  animation-name: hide-text;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+.trivia.is-clicked button:not(.clicked-correct):not(.clicked-wrong) {
+  animation-name: hide-text;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+.trivia.is-clicked .clicked-correct {
+  background: var(--spring-green);
+}
+.trivia.is-clicked .clicked-wrong {
+  animation-name: wrong-button;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+.progress-bar {
+  border: solid 1px var(--dark-slate-grey);
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  background: var(--black);
+  overflow: hidden;
+  display: flex;
+}
+.progress-bar .progress {
+  background: var(--spring-green);
+  height: 0.5rem;
+  border: none;
+}
+.progress-bar .blinking {
+  animation-name: blinking;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bottom-navigation {
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--seasalt);
+  background: var(--black);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: var(--bottom-nav-height);
+  border-top: solid 1px var(--seasalt);
+}
+
+.bottom-navigation p {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+.bottom-navigation a {
+  flex-basis: min(20%, 100px);
+  text-align: center;
+  border: none;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding-top: 0.5rem;
+}
+
+.bottom-navigation a.active {
+  color: var(--spring-green);
+}
+
+.bottom-navigation a p {
+  margin: 0;
+}
+
+.bottom-navigation .icon {
+  font-size: 1.25rem;
+  padding: 0.125rem;
+}
+
+.bottom-navigation .icon-label {
+  font-size: 0.75rem;
+}
+
+.game-dialog[open] {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game-dialog {
+  margin: auto;
+  padding: 1rem;
+  width: calc(min(100%, 500px) - 3rem);
+  border: solid 1px var(--black);
+  border-radius: 0.5rem;
+  box-shadow: var(--black-box-shadow);
+  animation-name: fade-in, bounce-in;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+.game-dialog :first-child {
+  margin-top: -1rem;
+  padding-top: 1rem;
+}
+.game-dialog h2 {
+  font-family: var(--title-font);
+}
+.game-dialog img {
+  display: block;
+  max-width: 100%;
+  border: solid 1px var(--dark-slate-grey);
+}
+.game-dialog .close-dialog-button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background: var(--spring-green);
+  border-radius: 0.25rem;
+  font-family: var(--title-font);
+}
+
+.game-dialog::backdrop {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  background: rgba(33, 79, 75, 0.8);
+}
+
+.game-dialog.is-closing {
+  animation-name: fade-out, bounce-out;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.game-dialog.is-closing::backdrop {
+  animation-name: fade-out;
+}
+
+/*# sourceMappingURL=style.css.map */

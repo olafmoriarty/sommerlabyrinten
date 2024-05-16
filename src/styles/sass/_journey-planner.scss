@@ -1,0 +1,45 @@
+.show-journey {
+	display: block;
+	margin: 1rem 0 0 auto;
+	padding: .25rem .5rem;
+	background: var(--dark-slate-grey);
+	color: var(--seasalt);
+	border-radius: .25rem;
+	font-family: var(--title-font);
+}
+
+.journey {
+	ul {
+		list-style-type: none;
+		display: flex;
+		gap: .5rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	li {
+		border: solid 1px var(--dark-slate-grey);
+		padding: .25rem;
+		border-radius: .25rem;
+		text-align: center;
+		font-weight: bold;
+		vertical-align: center;
+		font-family: var(--title-font);
+
+		.emoji {
+			font-size: 2rem;
+		}
+	}
+
+	.entur {
+		font-size: .8rem;
+		font-style: italic;
+		margin-top: 1rem;	
+	}
+}
+
+.journey-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}

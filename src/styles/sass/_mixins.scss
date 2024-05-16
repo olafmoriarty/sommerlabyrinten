@@ -1,0 +1,10 @@
+@mixin green-button {
+	display: block;
+	margin-top: 1rem;
+	width: 100%;
+	padding: .5rem;
+	background: var(--spring-green);
+	border-radius: .25rem;
+	font-family: var(--title-font);
+}
+

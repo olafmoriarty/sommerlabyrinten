@@ -1,0 +1,45 @@
+@keyframes blinking {
+	0% { background: var(--seasalt); }
+	25% { background: var(--seasalt); }
+	50% { background: var(--dark-slate-grey); }
+	75% { background: var(--dark-slate-grey); }
+	100% { background: var(--seasalt); }
+}
+
+@keyframes bounce-in {
+	0% { transform: translateY(50vh); }
+	100% {transform: translateY(0);}
+}
+
+@keyframes bounce-out {
+	0% {transform: translateY(0);}
+	100% { transform: translateY(-50rem); }
+}
+
+@keyframes hide-text {
+	0% { opacity: 1; }
+	100% { opacity: 0; }	
+}
+
+@keyframes wrong-button {
+	0% { background: var(--dark-slate-grey); }
+	50% {background: #800000; opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes right-button {
+	0% { color: var(--seasalt); background: var(--dark-slate-grey); }
+	50% {color: var(--black); background: var(--spring-green); opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes fade-in {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fade-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+

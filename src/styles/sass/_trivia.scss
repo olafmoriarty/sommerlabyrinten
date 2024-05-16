@@ -1,0 +1,92 @@
+.trivia-place {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background: var(--dark-slate-grey);
+	color: var(--seasalt);
+	margin-bottom: 0;
+	border-radius: 0;
+
+	h3 {
+		text-align: center;
+		font-size: 2rem;
+	}
+}
+
+.trivia {
+	background: var(--seasalt);
+	padding: .5rem;
+	border-radius: .25rem;
+	box-shadow: var(--black-box-shadow);
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	margin-top: 1.5rem;
+
+	.question {
+		font-weight: bold;
+		color: var(--dark-slate-grey);
+	}
+	
+	button {
+		display: block;
+		width: 100%;
+		padding: .5rem;
+		color: var(--seasalt);
+		background-color: var(--dark-slate-grey);
+		border-radius: 1rem;
+	}
+
+	.progress-bar {
+		margin-bottom: 1rem;
+	}
+	
+	&.is-clicked {
+		.question {
+			animation-name: hide-text;
+			animation-duration: .5s;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+		}
+
+		button:not(.clicked-correct):not(.clicked-wrong) {
+			animation-name: hide-text;
+			animation-duration: .5s;
+			animation-fill-mode: both;
+		}
+		.clicked-correct {
+			background: var(--spring-green);
+		}
+		
+		.clicked-wrong {
+			animation-name: wrong-button;
+			animation-duration: .5s;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+		}
+	}
+}
+
+.progress-bar {
+	border: solid 1px var(--dark-slate-grey);
+	height: .5rem;
+	border-radius: .25rem;
+	background: var(--black);
+	overflow: hidden;
+	display: flex;
+
+	.progress {
+		background: var(--spring-green);
+		height: .5rem;
+		border: none;
+	}
+	
+	.blinking {
+		animation-name: blinking;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+}
