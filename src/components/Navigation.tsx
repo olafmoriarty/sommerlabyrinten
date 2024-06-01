@@ -1,5 +1,5 @@
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome'
-import { faAward, faCircleInfo, faGear, faMap, faShirt } from '@fortawesome/free-solid-svg-icons'
+import { faAward, faCircleInfo, faGear, faMap } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
 
 const Navigation = () => {
@@ -12,10 +12,10 @@ const Navigation = () => {
 		<p className="icon"><Icon icon={faAward} /></p>
 			<p className="icon-label">Utmerkelser</p>
 		</NavLink>
-		<NavLink to="/butikk">
+		{/* <NavLink to="/butikk">
 		<p className="icon"><Icon icon={faShirt} /></p>
 			<p className="icon-label">Butikk</p>
-		</NavLink>
+		</NavLink> */}
 		<NavLink to="/hjelp">
 			<p className="icon"><Icon icon={faCircleInfo} /></p>
 			<p className="icon-label">Hjelp</p>
