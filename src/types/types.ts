@@ -15,9 +15,27 @@ export type PlaceType = {
 	questions : TriviaQuestion[],
 	rewardType : 'key'|'string',
 	rewardId? : number
-}
+};
 
 export type Position = { latitude : number, longitude : number };
+
+export type ProductType = {
+	id : number,
+	name : string,
+	price : number,
+	thumb? : string,
+	description? : string,
+	alt_thumb? : {
+		field : string,
+		condition : string,
+		thumb : string,
+	}[],
+	variants? : {
+		[key : string] : {
+			[key : string] : string,
+		}
+	}
+};
 
 export type TriviaQuestion = {
 	question : string,

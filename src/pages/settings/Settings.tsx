@@ -20,7 +20,7 @@ const Settings = () => {
 				: null}
 			</section>
 
-			<section className="content-box">
+{/*			<section className="content-box">
 				<h2>Vis på toppliste</h2>
 				<p>Ønsker du å sende inn navn og poengsum til Sommerlabyrinten-databasen, slik at du kan havne på topplista og sammenligne deg med andre spillere?</p>
 			</section>
@@ -31,10 +31,15 @@ const Settings = () => {
 				<button>Slett venner</button>
 				<p>0 personer har lagt til deg på din venneliste.</p>
 				<button>Vis liste</button>
-			</section>
+				</section> */}
 
 			<section className="content-box">
 				<h2>Slett data</h2>
+				<p>Trykk her for å slette alle data som er lagret i appen. <strong>Dette vil slette all framgang du har gjort i spillet og alle steder du har vært, og om du ønsker å spille videre må du starte spillet fra begynnelsen.</strong></p>
+				<button onClick={() => {
+					localStorage.clear();
+					location.reload();
+				}}>Slett data</button>
 			</section>
 		</main>
 	)

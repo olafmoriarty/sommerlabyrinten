@@ -6,7 +6,7 @@ import Introduction from "../dialogs/Introduction";
 
 const TitleScreen = () => {
 	const [selectedCity, setSelectedCity] = useState(undefined as CityType);
-	const { setCity } = useGame();
+	const { setCity, validCities } = useGame();
 	const { addNotificationToQueue } = useNotifications();
 
 	const selectCity = () => {
@@ -23,15 +23,17 @@ const TitleScreen = () => {
 		<main className="title-screen">
 		<h1><img src="./logo.png" alt="Sommerlabyrinten 2024" className="logo" /></h1>
 
-		<h2>Velg by:</h2>
 
+
+		<h2>Velg by:</h2>
 		
 		<section className="city-selector">
-			<CityOption cityName="Oslo" selectedCity={selectedCity} setSelectedCity={setSelectedCity} />
-			<CityOption cityName="Bergen" selectedCity={selectedCity} setSelectedCity={setSelectedCity} />
+			{validCities.map(el => <CityOption cityName={el} selectedCity={selectedCity} setSelectedCity={setSelectedCity} />)}
 		</section>
+		<p className="city-description">(Jeg håper å kunne legge til flere byer i framtiden, men foreløpig må du være i Oslo for å spille Sommerlabyrinten. Beklager, det var det jeg rakk å lage.)</p>
 
 		<p><button className="start-button" onClick={() => selectCity()} disabled={selectedCity === undefined}>Start spill!</button></p>
+		<p><strong>NB:</strong> Når du starter spillet, kommer nettleseren din til å spørre deg om lokasjonsdata. Hvis du ikke tillater dette, kommer ikke spillet til å virke!</p>
 		</main>
 	)
 }
