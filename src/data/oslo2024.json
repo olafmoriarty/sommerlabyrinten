@@ -1,12 +1,271 @@
 [
 	{
 		"id": 1,
-		"name": "Operahuset i Oslo",
+		"name": "Jernrosene",
+		"solvedDesc": "Jernrosene er et kunstprosjekt som etter 22. juli-terroren i 2011. Rosehavet foran Domkirken inspirerte smedene Tobbe Malm og Tone Mørk Karlsrud til å samle smijernsroser laget av smeder fra hele verden.",
+		"title": "Blomsterbed",
+		"lat": 59.912436295974636,
+		"long": 10.746255665912855,
+		"desc": "Smeder fra tjue land har bidratt til å konstruere dette minnesmerket, som befinner seg ved en bygning fra 1697.",
+		"questions": [
+			{
+				"question": "Hvilken hendelse inspirerte jernroseprosjektet?",
+				"options": [
+					"Rosehavet etter 22. juli-terroren",
+					"300-årsjubileet til Oslo domkirke",
+					"Årtusenskiftet"
+				]
+			},
+			{
+				"question": "Hva er det kjemiske symbolet for jern?",
+				"options": [
+					"Fe",
+					"Au",
+					"Ag"
+				]
+			},
+			{
+				"question": "«Just remember in the winter / Far beneath the bitter snows / Lies the seed that with the sun's love / In the spring becomes the rose.» Hvem sang dette?",
+				"options": [
+					"Bette Midler",
+					"Edith Piaf",
+					"Seal"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 2
+	},
+	{
+		"id": 2,
+		"name": "Hovedøya kloster",
+		"solvedDesc": "Hovedøya kloster er de gjenværende ruinene av et ciscerienserkloster som ble grunnlagt i 1147 og oppløst i 1532.",
+		"title": "Skal vi gå i land?",
+		"lat": 59.89635069374967,
+		"long": 10.729084466200328,
+		"desc": "På dette stedet har det bodd ciscertiensere.",
+		"questions": [
+			{
+				"question": "Hvor stor er Hovedøya?",
+				"options": [
+					"0,47 km²",
+					"0,27 km²",
+					"0,37 km²"
+				]
+			},
+			{
+				"question": "Hvem sang «Det hender så mangt på Hovedøen»?",
+				"options": [
+					"Kari Diesen",
+					"Wenche Myhre",
+					"Erik Bye"
+				]
+			},
+			{
+				"question": "Når ble Hovedøya kloster grunnlagt?",
+				"options": [
+					"1147",
+					"1219",
+					"1349"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 3
+	},
+	{
+		"id": 3,
+		"name": "Jerusalem bro",
+		"solvedDesc": "Jerusalem bro var en del av bydel Sagenes tusenårsprosjekt, og går fra Bjølsen Valsemølle til Treschows gate.",
+		"title": "Skråstag",
+		"lat": 59.93957584887313,
+		"long": 10.766716293253332,
+		"desc": "124 meter lang overgang som deler navn med en by i Midt-Østen.",
+		"questions": [
+			{
+				"question": "Når stod Jerusalem bro ferdig?",
+				"options": [
+					"2011",
+					"1999",
+					"1788"
+				]
+			},
+			{
+				"question": "Hvor lang er gang- og sykkelruten fra Bestumkilen til Sinsenkrysset, som denne broen er en del av?",
+				"options": [
+					"8 km",
+					"4 km",
+					"16 km"
+				]
+			},
+			{
+				"question": "Hvilken artist vant Eurovision Song Contest siste gang konkurransen ble arrangert i Jerusalem?",
+				"options": [
+					"Charlotte Nilsson, Sverige",
+					"Johnny Logan, Irland",
+					"Duncan Laurence, Nederland"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 4
+	},
+	{
+		"id": 4,
+		"name": "Holmenkollen skimuseum",
+		"solvedDesc": "Skimuseet ble åpnet i 1923, og flyttet til Holmenkollbakken i 1951.",
+		"title": "Ta sjansen",
+		"lat": 59.964172800422126,
+		"long": 10.66638752807942,
+		"desc": "Dette museet ligger på stedet hvor Arnfinn Bergmann vant OL-gull.",
+		"questions": [
+			{
+				"question": "Når var det første Holmenkollrennet?",
+				"options": [
+					"1892",
+					"1866",
+					"1913"
+				]
+			},
+			{
+				"question": "Hvor lå Skimuseet før det ble flyttet til Holmenkollbakken?",
+				"options": [
+					"Frognerseteren",
+					"Nordmarka",
+					"Grorud"
+				]
+			},
+			{
+				"question": "Hvor mange betalende tilskuere var det i Holmenkollen under hopprennet i Vinter-OL 1952?",
+				"options": [
+					"104 102",
+					"87 659",
+					"52 995"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 5
+	},
+	{
+		"id": 5,
+		"name": "Bogstad gård",
+		"solvedDesc": "Bogstad gård er en herregård fra 1700-tallet. Hovedbygningen er en besøksgård med autentiske interiører fra familien som bodde her.",
+		"title": "Skinke, skinke",
+		"lat": 59.97163,
+		"long": 10.62701,
+		"desc": "En av eierne av dette godset var Norges første statsminister i Stockholm.",
+		"questions": [
+			{
+				"question": "Når ble Bogstad herregård bygget?",
+				"options": [
+					"1772–1792",
+					"1804–1814",
+					"1329–1349"
+				]
+			},
+			{
+				"question": "Hvilken elv utløper fra Bogstadvannet?",
+				"options": [
+					"Lysakerelva",
+					"Akerselva",
+					"Alna"
+				]
+			},
+			{
+				"question": "Daværende godseier på Bogstad gård var Norges første statsminister i Stockholm. Hva het han?",
+				"options": [
+					"Peder Anker",
+					"Frederik Due",
+					"Gregers Gram"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 6
+	},
+	{
+		"id": 6,
+		"name": "Granfossen",
+		"solvedDesc": "Granfossen er en foss i Lysakerelva på grensa mellom Oslo og Bærum med fallhøyde 12,35 meter.",
+		"title": "Vill, vakker og våt",
+		"lat": 59.91821973174721,
+		"long": 10.630499806746666,
+		"desc": "Gangbro over foss et steinkast fra et kjøpesenter med cowboynavn.",
+		"questions": [
+			{
+				"question": "Hva er fallhøyden til Granfossen?",
+				"options": [
+					"12,35 meter",
+					"8,71 meter",
+					"18,81 meter"
+				]
+			},
+			{
+				"question": "Hva slags bedrift var Granfos brug?",
+				"options": [
+					"Papirfabrikk",
+					"Steinhoggeri",
+					"Saksefabrikk"
+				]
+			},
+			{
+				"question": "Hva er det latinske navnet for gran?",
+				"options": [
+					"Picea abies",
+					"Pinus sylvestris",
+					"Juniperus communis"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 7
+	},
+	{
+		"id": 7,
+		"name": "Monolitten",
+		"solvedDesc": "Monolitten er 17 meter høy og står på Vigelandsparkens høyeste punkt. Skulpturen er hugget ut av én steinblokk, og ble ferdigstilt av Gustav Vigelands steinhoggerassistenter i 1943.",
+		"title": "121 venner",
+		"lat": 59.92766,
+		"long": 10.69890,
+		"desc": "Navnet på denne gjenstanden, som er 17 meter høy, kommer av det greske ordet for «én stein».",
+		"questions": [
+			{
+				"question": "Hvor mange skulpturer er det i Vigelandsparken?",
+				"options": [
+					"214",
+					"58",
+					"937"
+				]
+			},
+			{
+				"question": "Hvor mange skulpturer er det i Vigelandsparken?",
+				"options": [
+					"1944",
+					"1928",
+					"1919"
+				]
+			},
+			{
+				"question": "Hvor kommer steinblokken som Monolitten er laget av fra?",
+				"options": [
+					"Iddefjorden, Østfold",
+					"Skorovas, Nord-Trøndelag",
+					"Huangshan, Kina"
+				]
+			}
+		],
+		"rewardType": "key",
+		"rewardId": null
+	},
+	{
+		"id": 8,
+		"name": "Operahuset",
 		"solvedDesc": "Den Norske Opera & Ballett er landets største musikk- og scenekunstinstitusjon. Det nye Operahuset i Bjørvika ble åpnet i 2008, har fått flere priser og er fredet av Riksantikvaren. Bygningen er det første operahuset i verden der man kan gå på taket.",
 		"title": "Oh-ooh-whoa-oh-oh-oh-oh",
-		"desc": "Denne bygningen deler navn med en nettleser. Plassen den ligger på er oppkalt etter en person som har fått en stjerne på Hollywood Walk of Fame.",
-		"lat": 59.908, 
+		"lat": 59.908,
 		"long": 10.75313,
+		"desc": "Denne bygningen deler navn med en nettleser. Plassen den ligger på er oppkalt etter en person som har fått en stjerne på Hollywood Walk of Fame.",
 		"questions": [
 			{
 				"question": "Når ble Operahuset åpnet?",
@@ -25,7 +284,7 @@
 				]
 			},
 			{
-				"question": "Når og hvor oppstod opera som teaterform?",
+				"question": "Når og hvor oppstod teaterformen opera?",
 				"options": [
 					"Italia, 1500-tallet",
 					"India, 800-tallet",
@@ -34,64 +293,201 @@
 			}
 		],
 		"rewardType": "clue",
-		"rewardId": 2
+		"rewardId": 9
 	},
 	{
-		"id": 2,
-		"name": "Monolitten",
-		"title": "121 venner",
-		"lat": 59.92766,
-		"long": 10.69890,
-		"desc": "Navnet på denne gjenstanden, som er 17 meter høy, kommer av det greske ordet for \"én stein\".",
+		"id": 9,
+		"name": "Helga Helgesens plass",
+		"solvedDesc": "Helga Helgesens plass ble i 2000 oppkalt etter Helga Helgesen, som var initiativtaker til skolekjøkkenundervisningen i Norge.",
+		"title": "Stolt",
+		"lat": 59.91213,
+		"long": 10.76624,
+		"desc": "Pride-paraden i Oslo starter på dette stedet.",
 		"questions": [
 			{
-				"question": "Hvor mange skulpturer er det i Vigelandsparken?",
+				"question": "Hva er Helga Helgesen en pioner innenfor?",
 				"options": [
-					"214",
-					"58",
-					"937"
+					"Skolekjøkkenfaget",
+					"Kvinner i politiyrket",
+					"Norsk Sykepleierforbund"
 				]
 			},
 			{
-				"question": "Når ble Monolitten avduket?",
+				"question": "Hvor mange deltok i Oslo Pride-paraden i 2023?",
 				"options": [
-					"1944",
-					"1928",
-					"1919"
+					"85 000",
+					"45 000",
+					"65 000"
 				]
 			},
 			{
-				"question": "Hvor kommer steinblokken som Monolitten er laget av fra?",
+				"question": "Når ble forstaden Grønland innlemmet i Oslo?",
 				"options": [
-					"Iddefjorden, Østfold",
-					"Skorovas, Nord-Trøndelag",
-					"Huangshan, Kina"
+					"1859",
+					"1878",
+					"1624"
 				]
 			}
 		],
 		"rewardType": "clue",
-		"rewardId": 2
+		"rewardId": 10
 	},
 	{
-		"id": 3,
-		"name": "Nobels fredssenter",
-		"title": "Dynamitt",
-		"desc": "Museum dedikert til arvingene til en svensk kjemiker og ideene deres.",
-		"lat": 59.91161,
-		"long": 10.7306,
+		"id": 10,
+		"name": "Kampen park",
+		"solvedDesc": "Kampen park ligger på Kampen i Oslo og ble utformet på slutten av 1800-tallet.",
+		"title": "Grottefest",
+		"lat": 59.9150212032985,
+		"long": 10.77985855514213,
+		"desc": "Grotte som ligger på et sted som har inspirert forfatterskapet til Stein Arne Hove.",
 		"questions": [
-
+			{
+				"question": "Når ble vannreservoaret i Kampen park bygget?",
+				"options": [
+					"1886",
+					"1986",
+					"1936"
+				]
+			},
+			{
+				"question": "Hva slags vesener er Henning og Flemming i tegneserien Kampen park?",
+				"options": [
+					"Ekornq",
+					"Krokodiller",
+					"Maurslukere"
+				]
+			},
+			{
+				"question": "Hvem har laget skulpturen «Svømmeren», som står i Kampen park?",
+				"options": [
+					"Anders Svor",
+					"Julius Middelthun",
+					"Sofus Madsen"
+				]
+			}
 		],
 		"rewardType": "clue",
-		"rewardId": 2
+		"rewardId": 11
 	},
 	{
-		"id": 4,
+		"id": 11,
+		"name": "Steinhoggermuseet",
+		"solvedDesc": "Steinhogging har spilt en viktig rolle i Groruddalens historie. Hver august arrangerer Steinhoggermuseet Steinhoggerfestivalen. hvor steinhoggere fra hele verden hugger ut hvert sitt verk på en helg.",
+		"title": "Singelliv",
+		"lat": 59.95889388631587,
+		"long": 10.882463497232632,
+		"desc": "Dette museet i en gammel arbeiderbolig, som også arrangerer en festival hvert år, er tilegnet en viktig yrkesgruppe i Groruddalens historie.",
+		"questions": [
+			{
+				"question": "Når er Steinhoggerfestivalen 2024?",
+				"options": [
+					"16.–18. august",
+					"2.–4. januar",
+					"12.–17. september"
+				]
+			},
+			{
+				"question": "Når ble Grorudveien 3 og 5 bygget?",
+				"options": [
+					"1924–1925",
+					"1904–1905",
+					"1944–1945"
+				]
+			},
+			{
+				"question": "Hvilken av disse konstruksjonene er IKKE laget av granitt fra Grorud?",
+				"options": [
+					"Monolitten",
+					"Døpefonten i Romsås kirke",
+					"Løvene foran Stortinget"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 12
+	},
+	{
+		"id": 12,
+		"name": "Stovnertårnet",
+		"solvedDesc": "Toppen av Stovnertårnet er 215 meter over havet, og den 265 meter lange gangbanen til toppen gjør at tårnet er universelt utformet og tilgjengelig for alle.",
+		"title": "Ingen høyderekord",
+		"lat": 59.96125374767078,
+		"long": 10.929543239583047,
+		"desc": "Norges lengste tårn.",
+		"questions": [
+			{
+				"question": "Hvor lang er gangbanen opp til Stovnertårnet?",
+				"options": [
+					"265 meter",
+					"225 meter",
+					"245 meter"
+				]
+			},
+			{
+				"question": "Når åpnet Stovnertårnet?",
+				"options": [
+					"2017",
+					"2001",
+					"2009"
+				]
+			},
+			{
+				"question": "Hvilken gate på Stovner har gitt navn til en roman fra 2017?",
+				"options": [
+					"Tante Ulrikkes vei",
+					"Fjellstuveien",
+					"Karl Fossums vei"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 13
+	},
+	{
+		"id": 13,
+		"name": "Furuset parkourpark",
+		"solvedDesc": "Parkourparken på Furuset ligger i Verdensparken, og var, da den åpnet i 2012, Norges første parkourpark.",
+		"title": "Freerunning",
+		"lat": 59.9449049216227,
+		"long": 10.896468810746235,
+		"desc": "Her finner du Norges første parkouranlegg.",
+		"questions": [
+			{
+				"question": "Hvor stor er Verdensparken?",
+				"options": [
+					"52 dekar",
+					"42 dekar",
+					"69 dekar"
+				]
+			},
+			{
+				"question": "Hva kalles en utøver av parkour?",
+				"options": [
+					"Traceur",
+					"Jumper",
+					"Rabagast"
+				]
+			},
+			{
+				"question": "FNs første generalsekretær vokste opp på Furuset. Hva het hen?",
+				"options": [
+					"Trygve Lie",
+					"Gro Harlem Brundtland",
+					"Johan Nygaardsvold"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 14
+	},
+	{
+		"id": 14,
 		"name": "Deichman Grünerløkka",
+		"solvedDesc": "Deichmans biblioteksfilial på Schous plass på Grünerløkka åpnet i oktober 1914 og er Norges eldste folkebibliotekbygning",
 		"title": "Eksponentielt",
-		"desc": "Et populært sted for tegneserieelskere, som ligger i den eldste bygningen av denne typen i Norge.",
 		"lat": 59.92079,
 		"long": 10.76023,
+		"desc": "Et populært sted for tegneserieelskere, som ligger i den eldste bygningen av denne typen i Norge.",
 		"questions": [
 			{
 				"question": "Deichman Grünerløkka er Norges eldste bibliotekbygning. Når åpnet den?",
@@ -110,7 +506,7 @@
 				]
 			},
 			{
-				"question": "Hvor mange barnebøker (fag- og skjønnlitteratur) har Deichman bibliotek i samlingen sin (2022-tall)?",
+				"question": "Hvor mange barnebøker (fag- og skjønnlitteratur) har Deichman bibliotek i samlingen sin?",
 				"options": [
 					"Cirka 410 000",
 					"Cirka 190 000",
@@ -118,18 +514,877 @@
 				]
 			}
 		],
-		"rewardType": "clue",
-		"rewardId": 2
+		"rewardType": "key",
+		"rewardId": null
 	},
 	{
-		"id": 5,
-		"name": "Naturhistorisk museum",
-		"title": "Det er farlig å gå alene",
-		"desc": "Zelda fra Montana flytter inn i denne bygningen i september 2024.",
-		"lat": 59.9197830,
-		"long": 10.7717140,
-		"questions": [],
+		"id": 15,
+		"name": "Damstredet",
+		"solvedDesc": "Damstredet er en smal, bratt og krokete gate på Bergfjerdingen som består av lave trehus.",
+		"title": "Trehus tett i tett",
+		"lat": 59.92016,
+		"long": 10.74691,
+		"desc": "Henrik Arnold og Amalie Sofie bodde her da de var nygifte.",
+		"questions": [
+			{
+				"question": "Hvilken dam er Damstredet oppkalt etter?",
+				"options": [
+					"Billedhuggerdammen",
+					"Lilleborg dam",
+					"Bjølsen dam"
+				]
+			},
+			{
+				"question": "Det ligger en snublestein ved Damstredet 2. Hvem er denne snublesteinen et minnesmerke for?",
+				"options": [
+					"Sigurd Dickman",
+					"Ruth Maier",
+					"Robert Kermann"
+				]
+			},
+			{
+				"question": "Hva het hesten til Henrik Wergeland?",
+				"options": [
+					"Veslebrunen",
+					"Vesleblakken",
+					"Welhaven"
+				]
+			}
+		],
 		"rewardType": "clue",
-		"rewardId": 2
+		"rewardId": 16
+	},
+	{
+		"id": 16,
+		"name": "Aamodt bru",
+		"solvedDesc": "Kjedehengebroen Aamodt bru ble bygget over Drammenselva i 1851, men befinner seg nå på Grünerløkka. Broen er omtalt i Lillebjørn Nilsens sang «Far har fortalt».",
+		"title": "Vi kan trenge en som deg",
+		"lat": 59.92625242216767,
+		"long": 10.752920868416211,
+		"desc": "Plakett fra sangen om hva pappaen til Lillebjørn har fortalt.",
+		"questions": [
+			{
+				"question": "Hvor befant Aamodt bru seg før den ble flyttet til Akerselva?",
+				"options": [
+					"Modum",
+					"Lørenskog",
+					"Oppegård"
+				]
+			},
+			{
+				"question": "Hvor lang er Aamodt bru?",
+				"options": [
+					"54 meter",
+					"64 meter",
+					"74 meter"
+				]
+			},
+			{
+				"question": "Hvor mange spellemannspriser fikk Lillebjørn Nilsen?",
+				"options": [
+					"Seks",
+					"Fem",
+					"Fire"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 17
+	},
+	{
+		"id": 17,
+		"name": "Vøienvolden gård",
+		"solvedDesc": "Vøienvolden gård ligger på Sagene og er et av byens eldste gårdsanlegg.",
+		"title": "Løkka i livet",
+		"lat": 59.93445079499692,
+		"long": 10.754676535455651,
+		"desc": "Oslos best bevarte løkkebygg, med en gårdsplass fra 1700-tallet.",
+		"questions": [
+			{
+				"question": "Oslo fikk en bymark vest for Akerselva noen år etter en stor bybrann. Når var denne bybrannen?",
+				"options": [
+					"1624",
+					"1724",
+					"1824"
+				]
+			},
+			{
+				"question": "Hvor stor var Vøienvolden gård i 1837?",
+				"options": [
+					"117 mål",
+					"77 mål",
+					"99 mål"
+				]
+			},
+			{
+				"question": "Hva var Bymarken?",
+				"options": [
+					"Et sted beboerne kunne dyrke mat og ha dyrehold",
+					"Et sted hvor befolkningen kunne gå på jakt",
+					"Et sted hvor befolkningen kunne selge håndarbeid på et stort marked"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 18
+	},
+	{
+		"id": 18,
+		"name": "Kruttverket på Etterstad",
+		"solvedDesc": "Kruttverket ved Alnaelven med et inspirerende og mangfoldig kulturtilbud for lokalsamfunnet, med kunst, kultur, musikk, dans og teaterscene, nabolagspub, café og restaurant. Selve bygget har eksistert siden 1700-tallet og har vært brukt som alt fra husmanssplass, høvleri og snekkerverksted til fabrikk.",
+		"title": "Pang",
+		"lat": 59.905164362672366,
+		"long": 10.801539364158641,
+		"desc": "Eksplosivt kulturhus i 1700-tallsbygning ved elvebredden.",
+		"questions": [
+			{
+				"question": "Hvilken elv ligger Kruttverket ved?",
+				"options": [
+					"Alnaelva",
+					"Akerselva",
+					"Drammenselva"
+				]
+			},
+			{
+				"question": "Hva er krutt laget av?",
+				"options": [
+					"Salpeter, svovel og trekull",
+					"Nitroglyserin, sorbenter og stabilisatorer",
+					"Natriumklorid og dihydrogenmonoksid"
+				]
+			},
+			{
+				"question": "Hva skjedde på Etterstadsletta 19. april 1864?",
+				"options": [
+					"To mordere ble henrettet og halshogd i byens siste sivile henrettelser",
+					"Det brøt ut en stor brann som spredte seg til Vålerenga og Ensjø",
+					"5000 mennesker demonstrerte mot det danske kongehuset"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 19
+	},
+	{
+		"id": 19,
+		"name": "Flytårnet",
+		"solvedDesc": "Oslo lufthavn Fornebu var Oslos hovedflyplass fra 1939 til 1998. I dag huser Flytårnet gallerier, kunstbutikk, cafe, vinbar, en liten scene/eventlokale, rammeverksted, bilmuseum, historisk museum, ulike verksteder, og ca. 100 utøvende kunstnere.",
+		"title": "Gammel havn",
+		"lat": 59.90057,
+		"long": 10.62327,
+		"desc": "Dette tårnet, som er omgitt av kunst- og kulturopplevelser, ligger teknisk sett ikke i Oslo, men de fleste som levde i Oslo før 1998 har et forhold til det.",
+		"questions": [
+			{
+				"question": "Hvor lang blir den nye Fornebubanen (T-bane fra Fornebu til Majorstuen)?",
+				"options": [
+					"7,7 kilometer",
+					"6,6 kilometer",
+					"8,8 kilometer"
+				]
+			},
+			{
+				"question": "Når var den siste ordinære flygingen fra Oslo lufthavn Fornebu?",
+				"options": [
+					"1998",
+					"1997",
+					"1999"
+				]
+			},
+			{
+				"question": "Hvor lang var den lengste rullebanen på Fornebu?",
+				"options": [
+					"2370 meter",
+					"1810 meter",
+					"1170 meter"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 20
+	},
+	{
+		"id": 20,
+		"name": "Nordtvet gård",
+		"solvedDesc": "Nordtvetg gård har vært både kirkegods, krongods og i privat eie, og i nyere tid har det vært ridesenter her. Stabburet fra 1790 stod opprinnelig på Nedre Grorud gård.",
+		"title": "Linnormland",
+		"lat": 59.95023705032705,
+		"long": 10.87412502198384,
+		"desc": "Et stabbur fra 1790-tallet med seks linnormer i tårnet ble flytta hit i 1994.",
+		"questions": [
+			{
+				"question": "Hvor mange melkekyr fantes det i Norge i 2022?",
+				"options": [
+					"211 000",
+					"186 000",
+					"373 000"
+				]
+			},
+			{
+				"question": "Stabburet på Nordtvet gård ble flyttet hit i 1994. Hvor stod det opprinnelig?",
+				"options": [
+					"Nedre Grorud gård",
+					"Bogstad gård",
+					"Vøienvolden gård"
+				]
+			},
+			{
+				"question": "Hva er en linnorm?",
+				"options": [
+					"Et fabeldyr",
+					"En øgle",
+					"En fisk"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 21
+	},
+	{
+		"id": 21,
+		"name": "Norsk maritimt museum",
+		"solvedDesc": "Norsk Maritimt Museum ble stiftet i 1914 og er et landsdekkende museum for sjøfart, kystkultur og marinarkeologi.",
+		"title": "Super Mario World",
+		"lat": 59.90305,
+		"long": 10.69828,
+		"desc": "Hit kan du reise både med buss og båt, men samme hvordan du reiser finner du båter her.",
+		"questions": [
+			{
+				"question": "Hva heter den største båten i Båthallen på Norsk Maritimt Museum?",
+				"options": [
+					"Fembøringen",
+					"Fram",
+					"Kon-Tiki"
+				]
+			},
+			{
+				"question": "Hvem har skrevet boka «Legenden om Sally Jones», som har inspirert en utstilling på museet?",
+				"options": [
+					"Jakob Wegelius",
+					"Malin Falch",
+					"Arne Svingen"
+				]
+			},
+			{
+				"question": "Hvem har malt maleriet «Sommerkveld fra Kristiania-fjorden», som er utstilt på Norsk Maritimt Museum?",
+				"options": [
+					"Hans Gude",
+					"Aksel Revold",
+					"Karl-Erik Harr"
+				]
+			}
+		],
+		"rewardType": "key",
+		"rewardId": null
+	},
+	{
+		"id": 22,
+		"name": "Naturhistorisk museum",
+		"solvedDesc": "Naturhistorisk museum ligger på Tøyen og inneholder Norges største samling av naturvitenskapelige objekter, i tillegg til landets største botaniske hage, som åpnet i 1812.",
+		"title": "Det er farlig å gå alene",
+		"lat": 59.92016,
+		"long": 10.77132,
+		"desc": "Zelda fra Montana flytter inn i denne bygningen i september 2024.",
+		"questions": [
+			{
+				"question": "Når ble Naturhistorisk museum etablert?",
+				"options": [
+					"1812",
+					"1853",
+					"1904"
+				]
+			},
+			{
+				"question": "Hvilken hurtigvoksende plante, som har blader som kan holde vekten av et barn, er et av veksthusene i Botanisk hage oppkalt etter?",
+				"options": [
+					"Victorianøkkerose",
+					"Magnolia",
+					"Sibirstjerne"
+				]
+			},
+			{
+				"question": "Hvem skrev boken «Jurassic Park»?",
+				"options": [
+					"Michael Crichton",
+					"Stephen King",
+					"Winston Groom"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 23
+	},
+	{
+		"id": 23,
+		"name": "Ullevål stadion",
+		"solvedDesc": "Ullevål stadion er Norges største fotballarena og hjemmebanen til de norske fotballandslagene.",
+		"title": "Ofrer alt om vi må",
+		"lat": 59.94982059064823,
+		"long": 10.733015689844912,
+		"desc": "I 83 år var dette stedet hjemmet til en klubb som deler navn med en elektrisk utladning. På det meste har det sittet 37 096 mennesker her.",
+		"questions": [
+			{
+				"question": "Når ble Ullevål stadion åpnet?",
+				"options": [
+					"1926",
+					"1946",
+					"1966"
+				]
+			},
+			{
+				"question": "To klubber har vunnet Norgesmesterskapet i fotball for menn tolv ganger hver. Hvilke to?",
+				"options": [
+					"Odd og Rosenborg",
+					"Lillestrøm og Rosenborg",
+					"Odd og Vålerenga"
+				]
+			},
+			{
+				"question": "Hvor mange aktive fotballspillere var det i Norge 1. januar 2020?",
+				"options": [
+					"372 000",
+					"288 000",
+					"127 000"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 24
+	},
+	{
+		"id": 24,
+		"name": "Peer Gynt-parken",
+		"solvedDesc": "Peer Gynt-parken er en samling skulpturer som ble etablert i Ibsenåret 2006, hvor man kan følge skuespillet om Peer Gynt akt for akt.",
+		"title": "Tøv og tant",
+		"lat": 59.93162,
+		"long": 10.79207,
+		"desc": "Her finner du tjue tredimensjonale scener fra et skuespill fra 1867.",
+		"questions": [
+			{
+				"question": "Hvem har skrevet musikken til Peer Gynt?",
+				"options": [
+					"Edvard Grieg",
+					"Rikard Nordraak",
+					"Halfdan Kjerulf"
+				]
+			},
+			{
+				"question": "Når ble Henrik Ibsen født?",
+				"options": [
+					"1828",
+					"1756",
+					"1905"
+				]
+			},
+			{
+				"question": "Hva het moren til Peer Gynt?",
+				"options": [
+					"Aase",
+					"Aslaug",
+					"Aud"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 25
+	},
+	{
+		"id": 25,
+		"name": "Linderud gård klatrepark",
+		"solvedDesc": "Like ved storgården Linderud gård, som blant annet har Østlandets mest særpregede 1700-tallshage, ligger en gratis klatrepark med ni hindre og en 40 meter lang zipline.",
+		"title": "Zip it",
+		"lat": 59.94220622249617,
+		"long": 10.834645539581679,
+		"desc": "Gratis klatrepark like ved en av byens best bevarte barokkhager.",
+		"questions": [
+			{
+				"question": "Når ble hovedbygningen på Linderud gård bygget?",
+				"options": [
+					"1713",
+					"1813",
+					"1763"
+				]
+			},
+			{
+				"question": "Hvor lang er verdens lengste zipline?",
+				"options": [
+					"2,83 kilometer",
+					"0,85 kilometer",
+					"1,79 kilometer"
+				]
+			},
+			{
+				"question": "Hvor stor er hagen på Linderud gård?",
+				"options": [
+					"46 dekar",
+					"24 dekar",
+					"31 dekar"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 26
+	},
+	{
+		"id": 26,
+		"name": "Teknisk museum",
+		"solvedDesc": "Norsk teknisk museum ble stiftet i 1914 og flyttet til Kjelsås i 1986. Det er Norges nasjonalmuseum for industri, vitenskap, teknologi og medisin, og har over 25 utstillinger og over 100 installasjoner spredt over 12 000 m² utstillingsareal.",
+		"title": "Teknisk sett ...",
+		"lat": 59.96653522862598,
+		"long": 10.782291400945176,
+		"desc": "I skoleåret har visstnok dette stedet i gjennomsnitt besøk av 14 skoleklasser hver dag.",
+		"questions": [
+			{
+				"question": "Hvor mange besøkende hadde Teknisk museum i 2022?",
+				"options": [
+					"235 000",
+					"104 000",
+					"198 000"
+				]
+			},
+			{
+				"question": "En av utstillingene på Teknisk museum handler om Maren. Hvem er Maren?",
+				"options": [
+					"En mumie",
+					"En robot",
+					"En katt"
+				]
+			},
+			{
+				"question": "Hvem fant opp telefonen?",
+				"options": [
+					"Alexander Graham Bell",
+					"Thomas Edison",
+					"Marie Curie"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 27
+	},
+	{
+		"id": 27,
+		"name": "Lutvann",
+		"solvedDesc": "Lutvann ligger 205 meter over havet og er det dypeste vannet i Østmarka. Her finner vi blant annet ørret, abbor, røye og øyene Nordholmen og Sydholmen.",
+		"title": "Alkalisk",
+		"lat": 59.91769,
+		"long": 10.88199,
+		"desc": "Badeplass på nordsida av innsjø som forhåpentligvis ikke inneholder så mye basiske hydroksider som navnet kan tilsi.",
+		"questions": [
+			{
+				"question": "Lutvann er det dypeste vannet i Østmarka. Hvor dypt er det?",
+				"options": [
+					"55,1 meter",
+					"22,6 meter",
+					"44,9 meter"
+				]
+			},
+			{
+				"question": "Hvor mange innsjøer er det i Norge?",
+				"options": [
+					"450 000",
+					"108 000",
+					"277 000"
+				]
+			},
+			{
+				"question": "Hvilken surhetsgrad har lut?",
+				"options": [
+					"Basisk",
+					"Sur",
+					"Nøytral"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 28
+	},
+	{
+		"id": 28,
+		"name": "Emmanuel Vigelands museum",
+		"solvedDesc": "Emanuel Vigelands museum er mausoleet etter kunstneren Emanuel Vigeland, utsmykket av Vigeland selv.",
+		"title": "Lillebror",
+		"lat": 59.94724665644111,
+		"long": 10.69271252523375,
+		"desc": "En 800 kvadratmeter stor freske dekorerer kunstnerens siste hvilested.",
+		"questions": [
+			{
+				"question": "Hvilken av disse bygningene inneholder glassmalerier av Emmanuel Vigeland?",
+				"options": [
+					"Domkirken i Oslo",
+					"Stortinget",
+					"Det kongelige slott"
+				]
+			},
+			{
+				"question": "Hva slags gjenstand er Emmanuel Vigelands urne?",
+				"options": [
+					"En rullesten",
+					"En vase",
+					"En spilledåse"
+				]
+			},
+			{
+				"question": "Ett av verdens syv underverker var et mausoleum. Hvor lå dette?",
+				"options": [
+					"Halikarnassos",
+					"Efesos",
+					"Rhodos"
+				]
+			}
+		],
+		"rewardType": "key",
+		"rewardId": null
+	},
+	{
+		"id": 29,
+		"name": "Nobels fredssenter",
+		"solvedDesc": "Nobels fredssenter, museet for Nobels fredspris og fredsprisens ansikt utad, ligger sentralt på Rådhusplassen og ble åpnet i 2005.",
+		"title": "Dynamitt",
+		"lat": 59.91161,
+		"long": 10.7306,
+		"desc": "Museum dedikert til arvingene til en svensk kjemiker og ideene deres.",
+		"questions": [
+			{
+				"question": "Hvem fikk Nobels fredspris i 2023?",
+				"options": [
+					"Narges Mohammadi",
+					"Malala Yousafzai",
+					"Barack Obama"
+				]
+			},
+			{
+				"question": "Når døde Alfred Nobel?",
+				"options": [
+					"1896",
+					"1875",
+					"1910"
+				]
+			},
+			{
+				"question": "Hvem var den siste nordmannen som vant Nobels fredspris?",
+				"options": [
+					"Fridtjof Nansen",
+					"Trygve Lie",
+					"Thorbjørn Jagland"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 30
+	},
+	{
+		"id": 30,
+		"name": "Hartvig Nissens skole",
+		"solvedDesc": "Oslos nest eldste videregående skole ble etablert av Hartvig Nissen i 1949, og har blitt internasjonalt kjent som kulisse for dramaserien «Skam».",
+		"title": "Skamløs",
+		"lat": 59.918482389721554,
+		"long": 10.71685713265301,
+		"desc": "Eva, Noora, Isak og Sana gikk her.",
+		"questions": [
+			{
+				"question": "Når grunnla Hartvig Nissen «Nissens pigeskole»?",
+				"options": [
+					"1849",
+					"1815",
+					"1874"
+				]
+			},
+			{
+				"question": "Hvor mange ordinære videregående skoler er det i Oslo?",
+				"options": [
+					"24",
+					"12",
+					"36"
+				]
+			},
+			{
+				"question": "Hva het kjæresten til Noora i Skam?",
+				"options": [
+					"William",
+					"Jonas",
+					"Even"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 31
+	},
+	{
+		"id": 31,
+		"name": "Ekeberg skulpturpark",
+		"solvedDesc": "Ekebergparken er en offentlig skulptur- og kulturminnepark med 45 skulpturer som åpnet i 2013.",
+		"title": "Feminint tema",
+		"lat": 59.898532907867285,
+		"long": 10.760467630707222,
+		"desc": "Blant helleristninger og steinaldermuseum finner vi en rekke verker av internasjonale kunstnere som Salvador Dalí, Niki de Saint Phalle og James Turrell.",
+		"questions": [
+			{
+				"question": "Når åpnet Ekebergparken?",
+				"options": [
+					"2013",
+					"2003",
+					"2023"
+				]
+			},
+			{
+				"question": "En av skulpturene i parken er «L'oiseau amoureux fontaine» av Niki de Saint Phalle. Hva forestiller den?",
+				"options": [
+					"En fugleskapning",
+					"En panter",
+					"En bjørn"
+				]
+			},
+			{
+				"question": "Det er funnet helleristninger på Ekeberg.Hvor gamle er de?",
+				"options": [
+					"4000-5000 år gamle",
+					"25-30 000 år gamle",
+					"220-230 år gamle"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 32
+	},
+	{
+		"id": 32,
+		"name": "Lambertseter gård",
+		"solvedDesc": "Lambertseter gård het opprinnelig Sæter, men fikk navnet Lambertseter etter kongens oppsitter Lambert, som drev gården fra 1611 til 1641.",
+		"title": "Sønner av Norge",
+		"lat": 59.8724,
+		"long": 10.81402,
+		"desc": "Denne gården har gitt navn til området som ofte omtales som Norges første drabantby.",
+		"questions": [
+			{
+				"question": "Hvor kom navnet Lambertseter fra?",
+				"options": [
+					"Gården ble drevet av en av kongens oppsittere, som het Lambert",
+					"Lambertseter gård drev med sauehold og bærdyrking, navnet kommer av lam + bær",
+					"Gården var eid av kong Christian IV som var veldig interessert i fysikk, og lambert var en gammel enhet for å måle lystetthet"
+				]
+			},
+			{
+				"question": "Hva befant seg på stedet hvor Lambertseter idrettsjorde ligger i dag fram til 1975?",
+				"options": [
+					"To 150 meter høye radiomaster",
+					"Den finske ambassaden i Norge",
+					"Norges største volleyballbane"
+				]
+			},
+			{
+				"question": "Hva heter den første filmen i «Lambertseter-trilogien»?",
+				"options": [
+					"Støv på hjernen",
+					"Vi gifter oss",
+					"Operasjon Egon"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 33
+	},
+	{
+		"id": 33,
+		"name": "Søndre Aas gård og miljøsenter",
+		"solvedDesc": "Søndre Aas gård oppstod på 1700-tallet. I dag er det en fritidsgård for barn og unge på Holmlia, med hester, griser, sauer, høns og en katt.",
+		"title": "Vafler i stabburskafeen",
+		"lat": 59.82669,
+		"long": 10.79084,
+		"desc": "Fritidsgård 300 meter fra Akershus.",
+		"questions": [
+			{
+				"question": "Hvor mange innbyggere hadde bydel Søndre Nordstand i 2020?",
+				"options": [
+					"39 000",
+					"56 000",
+					"71 000"
+				]
+			},
+			{
+				"question": "Hvilken byggestil har våningshuset på Søndre Aas gård?",
+				"options": [
+					"Sveitserstil",
+					"Dragestil",
+					"Jugendstil"
+				]
+			},
+			{
+				"question": "Hvor mange rideskoler er det i Norge (ifølge rideskoler.no)?",
+				"options": [
+					"226",
+					"178",
+					"199"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 34
+	},
+	{
+		"id": 34,
+		"name": "Portveien 2",
+		"solvedDesc": "Det lille røde huset i Hjemmets kolonihager på Bjølsen var arena for eksteriøropptakene til «Portveien 2», som det ble laget 143 episoder av fra 1985 til 1987.",
+		"title": "Det blir gøy, kan du tro",
+		"lat": 59.94026,
+		"long": 10.75393,
+		"desc": "De som bodde her la aldri merke til at det bodde en sjiraff i huset deres.",
+		"questions": [
+			{
+				"question": "Hvor mange parseller er det i Hjemmets kolonihager?",
+				"options": [
+					"109",
+					"77",
+					"228"
+				]
+			},
+			{
+				"question": "Hvem spilte sjiraffen Raffen i Portveien 2?",
+				"options": [
+					"Åsmund Huser",
+					"Hanne Dahle",
+					"Geir Børresen"
+				]
+			},
+			{
+				"question": "Når ble det første barneprogrammet sendt på NRK?",
+				"options": [
+					"1960",
+					"1966",
+					"1972"
+				]
+			}
+		],
+		"rewardType": "clue",
+		"rewardId": 35
+	},
+	{
+		"id": 35,
+		"name": "Hodet N.N.",
+		"solvedDesc": "Hodet N.N. er en gigantisk forstørrelse av et klassisk dokkehode som Marianne Heske kjøpte på et loppemarked i Paris.",
+		"title": "N.N.",
+		"lat": 59.933946050042024,
+		"long": 10.776817968416726,
+		"desc": "Det skal godt gjøres å miste hodet når det er sju meter høyt.",
+		"questions": [
+			{
+				"question": "Hvem har laget «Hodet N.N.»?",
+				"options": [
+					"Marianne Heske",
+					"Martin Puryear",
+					"Jaume Plensa"
+				]
+			},
+			{
+				"question": "Hvor mange bein er det i et menneskehode?",
+				"options": [
+					"22",
+					"4",
+					"37"
+				]
+			},
+			{
+				"question": "Hvilken kjent dukke hadde hovedrollen i en Oscar-vinnende kinofilm i 2023?",
+				"options": [
+					"Barbie",
+					"Tøydukke-Anna",
+					"Nora Helmer"
+				]
+			}
+		],
+		"rewardType": "key",
+		"rewardId": null
+	},
+	{
+		"id": 99,
+		"name": "Tigeren på Jernbanetorget",
+		"solvedDesc": "Navnet «Tigerstaden» kommer sannsynligvis fra et dikt av Bjørnstjerne Bjørnson. Bronsetigeren på Jernbanetorget var en gave til Oslos tusenårsjubileum og er laget av Elena Engelsen.",
+		"title": "Siste sang",
+		"lat": 59.91118181135228,
+		"long": 10.750347326086365,
+		"desc": "En tusenårsgave til Oslo, inspirert av et kallenavn fra 1870.",
+		"questions": [
+			{
+				"question": "Hva het Oslo fra 1624 til 1924?",
+				"options": [
+					"Christiania",
+					"Nidaros",
+					"Bjørgvin"
+				]
+			},
+			{
+				"question": "Hvor mange innbyggere har Oslo kommune?",
+				"options": [
+					"717 710",
+					"515 510",
+					"616 610"
+				]
+			},
+			{
+				"question": "Hvor finner vi ordene «Unanimiter et constanter»?",
+				"options": [
+					"I Oslos kommunevåpen",
+					"På siden av alle trikkene i Oslo",
+					"Over inngangen til Universitetet i Oslo"
+				]
+			},
+			{
+				"question": "Hva heter Oslo på sørsamisk?",
+				"options": [
+					"Oslove",
+					"Ossjelammes",
+					"Åssjelmes"
+				]
+			},
+			{
+				"question": "Hvor mange T-banestasjoner er det i Oslo?",
+				"options": [
+					"101",
+					"65",
+					"89"
+				]
+			},
+			{
+				"question": "Hva er Oslos høyeste bygning?",
+				"options": [
+					"Oslo Plaza",
+					"Postgirobygget",
+					"Uranienborg kirke"
+				]
+			},
+			{
+				"question": "Hvor stor del av Oslo kommune er skog?",
+				"options": [
+					"To tredjedeler",
+					"Halvparten",
+					"En tredjedel"
+				]
+			},
+			{
+				"question": "Hvor mange bydeler har Oslo?",
+				"options": [
+					"15",
+					"12",
+					"18"
+				]
+			},
+			{
+				"question": "Hvor mange innbyggere hadde Oslo under folketellingen i 1769?",
+				"options": [
+					"7469 innbyggere",
+					"18 276 innbyggere",
+					"39 152 innbyggere"
+				]
+			},
+			{
+				"question": "Hvor lang er Akerselva?",
+				"options": [
+					"9,8 kilometer",
+					"5,6 kilometer",
+					"7,2 kilometer"
+				]
+			}
+		],
+		"rewardType": "key",
+		"rewardId": null
 	}
 ]

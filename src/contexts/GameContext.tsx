@@ -12,10 +12,10 @@ export const GameProvider = (props : { children : JSX.Element|JSX.Element[] }) =
 
 	const [placeStatusObject, setPlaceStatusObject] = useState({
 		1: PlaceStatus.Unread,
-		2: PlaceStatus.Unread,
-		3: PlaceStatus.Unread,
-		4: PlaceStatus.Unread,
-		5: PlaceStatus.Unread,
+		8: PlaceStatus.Unread,
+		15: PlaceStatus.Unread,
+		22: PlaceStatus.Unread,
+		29: PlaceStatus.Unread,
 	} as PlaceStatusObject);
 
 	// Get data from localstorage
