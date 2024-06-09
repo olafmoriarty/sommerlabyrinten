@@ -6,10 +6,12 @@ import './styles/style.css';
 import { NotificationProvider } from './contexts/NotificationContext';
 import The404Page from './pages/404';
 import Settings from './pages/settings/Settings';
+import Help from './pages/help/Help';
 
 const router = createBrowserRouter([
 	{ element: <Root />, children: [
 		{path: '/innstillinger', element: <Settings />},
+		{path: '/hjelp', element: <Help />},
 		{path: '/', element: <Content />},
 		{path: '*', element: <The404Page />},
 	] },
