@@ -20,6 +20,7 @@ const getEnturData = async ( myPosition : Position, targetPosition : Position ) 
 		  tripPatterns {
 			legs {
 			  mode
+			  distance
 			  line {
 				publicCode
 			  }

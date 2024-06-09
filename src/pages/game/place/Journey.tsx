@@ -9,6 +9,7 @@ const Journey = ( props : {
 
 	const [journeyLoaded, setJourneyLoaded] = useState('unpressed' as 'unpressed'|'pressed'|'loaded'|'error');
 	const [pattern, setPattern] = useState([] as TripPatternLegs);
+	const [alternativePattern, setAlternativePattern] = useState([] as TripPatternLegs);
 
 	const modes : { [mode : string] : string} = {
 		air: '✈️',
@@ -24,6 +25,7 @@ const Journey = ( props : {
 		trolleybus: '🚎',
 		tram: '🚋',
 		water: '🛳️',
+		foot: '👣',
 	}
 
 	const fetchData = async () => {
@@ -34,15 +36,24 @@ const Journey = ( props : {
 
 			if (data === null) {
 				setPattern([]);
+				setAlternativePattern([]);
 				setJourneyLoaded('error');
 				return;
 			}
 
 			if ( data?.data?.trip?.tripPatterns?.length ) {
-				setPattern( data.data.trip.tripPatterns[0].legs );
+				const patterns = data.data.trip.tripPatterns;
+				setPattern( patterns[0].legs );
+				if (patterns.length > 1 && patterns[0].legs.length === 1 && patterns[0].legs[0].mode === 'foot') {
+					setAlternativePattern( patterns[1].legs );
+				}
+				else {
+					setAlternativePattern([]);
+				}
 			}
 			else {
 				setPattern([]);
+				setAlternativePattern([]);
 			}
 			setJourneyLoaded('loaded');
 		}
@@ -59,11 +70,17 @@ const Journey = ( props : {
 	return (
 		<section className="journey">
 			<h4>Foreslått reiserute:</h4>
-			{pattern.filter(el => el.mode !== 'foot').length ?
+			{pattern.length ?
 			<ul>
-				{pattern.filter(el => el.mode !== 'foot').map((el, index) => <li>{<div key={index} className="emoji">{modes[el.mode] || el.mode}</div>}{el.line ? <div className="line">{el.line.publicCode}</div> : ''}</li>)}
+				{pattern.map((el, index) => <li>{<div key={index} className="emoji">{modes[el.mode] || el.mode}</div>}{el.line ? <div className="line">{el.line.publicCode}</div> : (el.mode === 'foot' ? `${Math.round(el.distance || 0)} m` : '')}</li>)}
 			</ul>
 			: (journeyLoaded === 'error' ? <p>Klarte ikke å få kontakt med Enturs reiseplanlegger. Er du tilkoblet Internett?</p> : <p>Fant ingen reiserute.</p>)}
+			{alternativePattern.length ?
+			<><h4>Alternativ reiserute:</h4>
+			<ul>
+				{alternativePattern.map((el, index) => <li>{<div key={index} className="emoji">{modes[el.mode] || el.mode}</div>}{el.line ? <div className="line">{el.line.publicCode}</div> : (el.mode === 'foot' ? `${Math.round(el.distance || 0)} m` : '')}</li>)}
+			</ul></>
+			: null}
 			{journeyLoaded !== 'error' ? <p className="entur">Data made available by Entur</p> : null}
 			<div className="journey-footer">
 				{journeyLoaded !== 'error' ? <div className="entur">
@@ -78,6 +95,7 @@ const Journey = ( props : {
 type TripPatternLegs = {
 		mode : string,
 		line : null | { publicCode : string }
+		distance? : number,
 	}[]
 
 type EnturData = {
