@@ -7,11 +7,13 @@ import { NotificationProvider } from './contexts/NotificationContext';
 import The404Page from './pages/404';
 import Settings from './pages/settings/Settings';
 import Help from './pages/help/Help';
+import Privacy from './pages/privacy/Privacy';
 
 const router = createBrowserRouter([
 	{ element: <Root />, children: [
 		{path: '/innstillinger', element: <Settings />},
 		{path: '/hjelp', element: <Help />},
+		{path: '/personvern', element: <Privacy />},
 		{path: '/', element: <Content />},
 		{path: '*', element: <The404Page />},
 	] },

@@ -48,10 +48,16 @@ export const GameProvider = (props : { children : JSX.Element|JSX.Element[] }) =
 		}
 	}, [city, year]);
 
-	// Update localstorage
 	useEffect(() => {
+		// Update localstorage
 		if (city && year) {
 			localStorage.setItem(`${year}-${city}`, JSON.stringify(placeStatusObject));
+		}
+
+		// Update localstorage
+		if (!placeStatusObject[99] && places.filter(el => el.rewardType === 'key' && placeStatusObject[el.id] === PlaceStatus.Solved).length >= 3) {
+			updateStatus(99, PlaceStatus.Unread);
+
 		}
 	}, [placeStatusObject]);
 

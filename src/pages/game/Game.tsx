@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useGame } from "../../contexts/GameContext"
 import PlaceList from "./PlaceList";
 import Stats from "./Stats";
@@ -19,6 +20,7 @@ const Game = () => {
 			</header>
 			<Stats />
 			<PlaceList />
+			<p className="privacy-policy-link"><Link to="/personvern">Personvernerklæring</Link></p>
 		</main>
 	);
 }

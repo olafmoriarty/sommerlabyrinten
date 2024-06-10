@@ -5,6 +5,7 @@ import { useGame } from "../../../contexts/GameContext";
 import { PlaceStatus } from "../../../types/enums";
 import { useNotifications } from "../../../contexts/NotificationContext";
 import YouFoundAClue from "../../dialogs/YouFoundAClue";
+import YouFoundAKey from "../../dialogs/YouFoundAKey";
 
 const Trivia = (props : {
 	id : number,
@@ -37,7 +38,13 @@ const Trivia = (props : {
 					updateStatus(props.rewardId, PlaceStatus.Unread);
 				}
 				updateStatus(props.id, PlaceStatus.Solved);
-				addNotificationToQueue(<YouFoundAClue />);			
+				if (props.rewardType === 'clue') {
+					addNotificationToQueue(<YouFoundAClue />);			
+				}
+				if (props.rewardType === 'key') {
+					addNotificationToQueue(<YouFoundAKey />);			
+				}
+
 			}
 		}, 500);
 

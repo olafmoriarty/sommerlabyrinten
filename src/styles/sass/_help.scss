@@ -3,6 +3,12 @@
 		font-size: 1rem;
 	}
 
+	h3 {
+		font-family: var(--title-font);
+		font-size: 1rem;
+		margin-bottom: .5rem;
+	}
+
 	.collapsed h2 {
 		margin-bottom: 0;
 	}

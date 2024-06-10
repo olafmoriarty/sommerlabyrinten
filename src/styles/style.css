@@ -235,6 +235,14 @@ main h2 {
   font-size: 0.9rem;
 }
 
+.read-more {
+  font-size: 0.8rem;
+}
+.read-more a {
+  font-weight: bold;
+  color: var(--black);
+}
+
 .stats {
   display: flex;
   margin-bottom: 2rem;
@@ -499,6 +507,11 @@ main h2 {
 .help-page h2 {
   font-size: 1rem;
 }
+.help-page h3 {
+  font-family: var(--title-font);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 .help-page .collapsed h2 {
   margin-bottom: 0;
 }
@@ -577,7 +590,6 @@ main h2 {
 .game-dialog img {
   display: block;
   max-width: 100%;
-  border: solid 1px var(--dark-slate-grey);
 }
 .game-dialog .close-dialog-button {
   display: block;
@@ -605,6 +617,18 @@ main h2 {
 
 .game-dialog.is-closing::backdrop {
   animation-name: fade-out;
+}
+
+.privacy-policy-link {
+  border-top: solid 1px var(--dark-slate-grey);
+  font-size: 0.8rem;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.privacy-policy-link a {
+  font-weight: bold;
+  color: var(--black);
 }
 
 /*# sourceMappingURL=style.css.map */

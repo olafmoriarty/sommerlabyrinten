@@ -61,3 +61,11 @@
 .city-description {
 	font-size: .9rem;
 }
+
+.read-more {
+	font-size: .8rem;
+	a {
+		font-weight: bold;
+		color: var(--black);
+	}
+}
