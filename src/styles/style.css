@@ -143,8 +143,11 @@ main h2 {
   image-rendering: pixelated;
 }
 
-.text-box p, .text-box h1, .text-box h2 {
+.text-box p, .text-box h1, .text-box h2, .text-box ul {
   margin-bottom: 1rem;
+}
+.text-box ul {
+  padding-inline-start: 2.5rem;
 }
 
 .content-box {

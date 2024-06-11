@@ -50,8 +50,12 @@ main h2 {
 }
 
 .text-box {
-	p, h1, h2 {
+	p, h1, h2, ul {
 		margin-bottom: 1rem;
+	}
+
+	ul {
+		padding-inline-start: 2.5rem;
 	}
 }
 
