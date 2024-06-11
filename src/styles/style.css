@@ -380,7 +380,7 @@ main h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   background: var(--dark-slate-grey);
   color: var(--seasalt);
   margin-bottom: 0;
