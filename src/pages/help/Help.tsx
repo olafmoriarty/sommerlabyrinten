@@ -53,9 +53,13 @@ const Help = () => {
 				<ul>
 				<li><a href="https://www.shutterstock.com/image-photo/vintage-paper-background-old-envelope-postcard-2345197067" target="_blank">DarkBird, Shutterstock.com</a></li>
 				<li><a href="https://www.shutterstock.com/image-photo/golden-skeleton-key-isolated-on-white-126947111">Jules_Kitano, Shutterstock.com</a></li>
+				<li><a href="https://www.shutterstock.com/image-illustration/treasury-hall-treasure-trove-gold-coins-2353228151">ridersuperone, ShutterStock.com</a></li>
 				</ul>
 				<h3>Ikoner</h3>
-				<p><a href=""></a></p>
+				<ul>
+					<li>Ikoner brukt i utmerkelser: <a href="https://freepik.com" target="_blank">FreePik</a></li>
+					<li>Andre ikoner: <a href="https://fontawesome.com">FontAwesome</a></li>
+				</ul>
 				<h3>API-er</h3>
 				<p>Sommerlabyrinten benytter API-en til <a href="https://developer.entur.org">EnTur</a> for å tilby reiseruteforslag.</p>
 			</HelpSection>

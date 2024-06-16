@@ -17,6 +17,18 @@ export type PlaceType = {
 	rewardId? : number
 };
 
+export type AchievementType = {
+	name : string,
+	desc : string,
+	image : string,
+} & ({
+	type : "placeCount"|"keyCount",
+	count : number,
+} | {
+	type : "placeList",
+	placeList : number[],
+})
+
 export type Position = { latitude : number, longitude : number };
 
 export type ProductType = {

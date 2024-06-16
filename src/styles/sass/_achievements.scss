@@ -1,0 +1,86 @@
+.achievements-page h1 {
+	margin-bottom: 1.5rem;
+}
+
+.current-level {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	font-size: 1rem;
+	font-family: var(--title-font);
+
+	background-color: var(--seasalt);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: var(--default-box-shadow);
+}
+
+.achievements-page .stats {
+	justify-content: space-between;
+	article {
+		flex-grow: 1;
+		justify-content: center;
+	}
+}
+
+.achievement {
+	background: var(--seasalt);
+	margin-bottom: 1rem;
+	padding: .5rem;
+	border-radius: .25rem;
+	box-shadow: var(--default-box-shadow);
+
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+
+	.achievement-icon {
+		display: block;
+
+		width: 64px;
+		height: 64px;
+
+	}
+
+	h2 {
+		text-shadow: none;
+		font-size: 1.5rem;
+	}
+
+	.progress-bar {
+		margin-top: .5rem;
+	}
+
+	&.unsolved {
+		display: block;
+		color: var(--seasalt);
+		background: var(--dark-slate-grey);
+		font-size: 0.8rem;
+		font-style: italic;
+		h2 {
+			font-size: 1rem;
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+
+.game-dialog .achievement-dialog-image {
+	max-width: 60%;
+	margin: auto;
+}
+
+.game-dialog .share-button {
+	background: transparent;
+	border: solid 1px var(--dark-slate-grey);
+	color: var(--dark-slate-grey);
+	font-weight: bold;
+	padding: .25rem .5rem;
+	border-radius: .25rem;
+	display: block;
+	margin: 0 auto;
+	font-size: 1rem;
+}
+
+.game-dialog:has(.achievement-dialog-image) {
+	text-align: center;
+}

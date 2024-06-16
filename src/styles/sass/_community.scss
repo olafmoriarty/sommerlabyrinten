@@ -1,0 +1,20 @@
+.community .content-box {
+	text-align: center;
+}
+
+.discord-button {
+	text-align: center;
+	a {
+		padding: .5rem;
+		background: var(--spring-green);
+		border-radius: .25rem;
+		font-family: var(--title-font);
+
+		display: inline-block;
+		border: solid 1px var(--black);
+		box-shadow: var(--default-box-shadow);
+
+		color: var(--black);
+		text-decoration: none;
+	}
+}

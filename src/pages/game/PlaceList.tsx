@@ -28,7 +28,7 @@ const PlaceList = () => {
 				<p>For å kunne spille Sommerlabyrinten, trenger denne appen å vite hvor du er.</p>
 				<p>Spillet handler om å finne og oppsøke fysiske steder, og det er derfor ikke mulig å spille det uten å gi appen tilgang til lokasjonen din.</p>
 				<p><strong>Din lokasjon vil aldri bli lagret noe sted, sendt inn til Sommerlabyrinten eller delt med andre.</strong></p>
-				<p><a href="">Les mer om hvordan Sommerlabyrinten behandler data</a></p>
+				<p><a href="/personvern">Les mer om hvordan Sommerlabyrinten behandler data</a></p>
 			</main>
 		);
 	

@@ -41,6 +41,9 @@
 		background-color: var(--dark-slate-grey);
 		font-family: var(--title-font);
 
+		&.treasure-chamber {
+			background-color: var(--raspberry);
+		}
 		&.solved {
 			background-color: var(--black);
 			font-style: italic;

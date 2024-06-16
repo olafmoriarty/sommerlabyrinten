@@ -15,6 +15,7 @@ const Privacy = () => {
 			<p>Behandlingsgrunnlaget for denne behandlingen er <strong>berettiget interesse</strong> - dette er en helt essensiell innsamling av opplysninger som i praksis gjøres av alle nettsider du besøker, og den kan benyttes til å hindre misbruk av tjeneren.</p>
 			<h2>Tredjeparter</h2>
 			<p>Som nevnt over bruker Sommerlabyrinten API-et til <a href="https://om.entur.no/personvern/" target="_blank">Entur</a> for å gi deg forslag til kollektivreiserute til stedet du ønsker å besøke. Når du trykker på knappen «Foreslå reiserute», blir din nåværende lokasjon sendt til Entur, som benytter den for å beregne hvordan du kommer deg fra stedet du er til stedet du ønsker å besøke. Behandlingsgrunnlaget for denne behandlingen er <strong>samtykke</strong>.</p>
+			<p>Dersom du velger å joine Sommerlabyrintens Discord-server, gjelder <a href="https://discord.com/privacy" target="_blank">Discords personvernretningslinjer</a>.</p>
 			<h2>E-postkontakt</h2>
 			<p>På hjelpesiden oppfordres du til å sende en e-post til <em>olafmoriarty@gmail.com</em> dersom du har andre spørsmål eller tilbakemeldinger enn de som er besvart der. Når du sender en e-post, blir e-posten din lagret (ikke-anonymisert) i en gmail-postboks, og som hovedregel vil disse e-postene ikke bli slettet. Grunnlaget for dette er <strong>berettiget interesse</strong> i å kunne yte bedre service dersom du stiller oppfølgingsspørsmål. Dersom du ønsker det, kan du sende en e-post til samme adresse og be om at alle e-poster fra deg blir slettet.</p>
 			<h2>Andre personopplysninger</h2>

@@ -6,6 +6,7 @@ import { PlaceStatus } from "../../../types/enums";
 import { useNotifications } from "../../../contexts/NotificationContext";
 import YouFoundAClue from "../../dialogs/YouFoundAClue";
 import YouFoundAKey from "../../dialogs/YouFoundAKey";
+import TreasureFound from "../../dialogs/TreasureFound";
 
 const Trivia = (props : {
 	id : number,
@@ -43,6 +44,9 @@ const Trivia = (props : {
 				}
 				if (props.rewardType === 'key') {
 					addNotificationToQueue(<YouFoundAKey />);			
+				}
+				if (props.rewardType === 'treasure') {
+					addNotificationToQueue(<TreasureFound />);			
 				}
 
 			}

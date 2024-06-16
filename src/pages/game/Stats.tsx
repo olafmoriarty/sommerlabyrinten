@@ -5,7 +5,7 @@ import { useGame } from "../../contexts/GameContext";
 import { PlaceStatus } from "../../types/enums";
 
 const Stats = () => {
-	const { places, placeStatusObject } = useGame();
+	const { places, placeStatusObject, myAchievements } = useGame();
 	
 	const numberOfPlacesSolved = Object.keys(placeStatusObject).filter(el => placeStatusObject[Number(el)] === PlaceStatus.Solved ).length;
 	const numberOfKeysFound = places.filter(el => el.rewardType === 'key' && placeStatusObject[el.id] === PlaceStatus.Solved).length;
@@ -22,7 +22,7 @@ const Stats = () => {
 			</article>
 			<article>
 				<p className="icon"><Icon icon={faAward} /></p>
-				<p>{0}</p>
+				<p>{myAchievements.length}</p>
 			</article>
 		</section>
 	)

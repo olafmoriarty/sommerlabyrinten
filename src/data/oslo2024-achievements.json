@@ -1,0 +1,128 @@
+[
+	{
+		"name": "Friskus",
+		"desc": "Finn og besøk ditt første sted.",
+		"type": "placeCount",
+		"image": "friskus.png",
+		"count": 1
+	},
+	{
+		"name": "Markpiplerke",
+		"desc": "Finn og besøk fem steder.",
+		"type": "placeCount",
+		"image": "markpiplerke.png",
+		"count": 5
+	},
+	{
+		"name": "Hakkespett",
+		"desc": "Finn og besøk ti steder.",
+		"type": "placeCount",
+		"image": "hakkespett.png",
+		"count": 10
+	},
+	{
+		"name": "General",
+		"desc": "Finn og besøk tjue steder.",
+		"type": "placeCount",
+		"image": "general.png",
+		"count": 20
+	},
+	{
+		"name": "Stormogul",
+		"desc": "Finn og besøk tretti steder.",
+		"type": "placeCount",
+		"image": "stormogul.png",
+		"count": 30
+	},
+	{
+		"name": "Minotaur",
+		"desc": "Finn og besøk alle stedene i spillet.",
+		"type": "placeCount",
+		"image": "minotaur.png",
+		"count": 36
+	},
+	{
+		"name": "Nøkkelost",
+		"desc": "Finn en nøkkel.",
+		"type": "keyCount",
+		"image": "nokkelost.png",
+		"count": 1
+	},
+	{
+		"name": "Nøkkelbarn",
+		"desc": "Finn to nøkler.",
+		"type": "keyCount",
+		"image": "nokkelbarn.png",
+		"count": 2
+	},
+	{
+		"name": "Nøkkelbein",
+		"desc": "Finn tre nøkler.",
+		"type": "keyCount",
+		"image": "nokkelbein.png",
+		"count": 3
+	},
+	{
+		"name": "Nøkkelharpe",
+		"desc": "Finn fire nøkler.",
+		"type": "keyCount",
+		"image": "nokkelharpe.png",
+		"count": 4
+	},
+	{
+		"name": "Nøkkelvitne",
+		"desc": "Finn alle fem nøkler.",
+		"type": "keyCount",
+		"image": "nokkelvitne.png",
+		"count": 5
+	},
+	{
+		"name": "Kurator",
+		"desc": "Besøk sju museer.",
+		"type": "placeList",
+		"image": "kurator.png",
+		"placeList": [4, 11, 21, 22, 26, 28, 29]
+	},
+	{
+		"name": "Sinnatagg",
+		"desc": "Besøk fem skulpturer eller skulpturparker.",
+		"type": "placeList",
+		"image": "sinnatagg.png",
+		"placeList": [7, 24, 31, 35, 99]
+	},
+	{
+		"name": "Brobygger",
+		"desc": "Besøk to broer.",
+		"type": "placeList",
+		"image": "brobygger.png",
+		"placeList": [3, 16]
+	},
+	{
+		"name": "Aragorn",
+		"desc": "Besøk to tårn.",
+		"type": "placeList",
+		"image": "aragorn.png",
+		"placeList": [12, 19]
+	},
+	{
+		"name": "Agronom",
+		"desc": "Besøk seks gårder.",
+		"type": "placeList",
+		"image": "agronom.png",
+		"placeList": [5, 17, 20, 25, 32, 33]
+	},
+	{
+		"name": "Kompassnål",
+		"desc": "Besøk Sommerlabyrintens nordligste, sørligste, vestligste og østligste sted.",
+		"type": "placeList",
+		"image": "kompassnal.png",
+		"placeList": [34, 5, 19, 12]
+	},
+	{
+		"name": "Labyrintmester",
+		"desc": "Finn skattkammeret.",
+		"type": "placeList",
+		"image": "labyrintmester.png",
+		"placeList": [99]
+	}
+]

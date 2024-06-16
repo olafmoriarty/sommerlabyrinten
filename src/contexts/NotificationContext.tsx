@@ -12,7 +12,6 @@ export const NotificationProvider = (props : { children : JSX.Element|JSX.Elemen
 		if (notifications.length) {
 			dialogRef.current?.showModal();
 			if (dialogRef.current) {
-				console.log('Test');
 				dialogRef.current.firstElementChild?.scrollIntoView(true);
 			}
 			setIsClosing(false);
@@ -38,12 +37,12 @@ export const NotificationProvider = (props : { children : JSX.Element|JSX.Elemen
 	return (
 		<NotificationContext.Provider value={value}>
 			{props.children}
-			<dialog className={`game-dialog${isClosing ? ' is-closing' : ''}`} ref={dialogRef} key={JSON.stringify(notifications[0])}>
-				{notifications.length ? <>
+			{notifications.length ? <>
+			<dialog className={`game-dialog${isClosing ? ' is-closing' : ''}`} ref={dialogRef} key={notifications[0].type}>
 					{notifications[0]}
 					<button className="close-dialog-button" onClick={closeDialog}>Lukk vindu</button>
-				</> : null}
 			</dialog>
+			</> : null}
 		</NotificationContext.Provider>
 	)
 }

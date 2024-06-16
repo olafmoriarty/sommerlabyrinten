@@ -35,7 +35,7 @@ const Place = (props : Props) => {
 
 	if (props.collapsed) {
 		return (
-			<div className={`place collapsed${props.status === PlaceStatus.Solved ? ' solved' : ''}`} onClick={() => {
+			<div className={`place collapsed${props.status === PlaceStatus.Solved ? ' solved' : ''}${props.id === 99 ? ' treasure-chamber' : ''}`} onClick={() => {
 				props.setSelectedPlace( props.id );
 				if (props.status === PlaceStatus.Unread) {
 					updateStatus(props.id, PlaceStatus.Read);
@@ -51,7 +51,7 @@ const Place = (props : Props) => {
 	if (props.status === PlaceStatus.Solved) {
 		return <div className="place">
 			<h3 onClick={() => props.setSelectedPlace( 0 )}>{props.name}</h3>
-			<p><strong>{(props.rewardType === 'key' ? 'Du har funnet en nøkkel ved {place}!' : 'Du har funnet en ledetråd ved {place}!').replace('{place}', props.name)}</strong></p>
+			<p><strong>{(props.rewardType === 'key' ? 'Du har funnet en nøkkel ved {place}!' : (props.rewardType === 'treasure' ? 'Du fant et skattkammer under {place}!' : 'Du har funnet en ledetråd ved {place}!')).replace('{place}', props.name)}</strong></p>
 			<p>{props.solvedDesc}</p>
 		</div>
 	}

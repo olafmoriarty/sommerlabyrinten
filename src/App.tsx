@@ -9,12 +9,16 @@ import Settings from './pages/settings/Settings';
 import Help from './pages/help/Help';
 import Privacy from './pages/privacy/Privacy';
 import { useEffect } from 'react';
+import Achievements from './pages/achievements/Achievements';
+import Community from './pages/community/Community';
 
 const router = createBrowserRouter([
 	{ element: <Root />, children: [
 		{path: '/innstillinger', element: <Settings />},
+		{path: '/utmerkelser', element: <Achievements />},
 		{path: '/hjelp', element: <Help />},
 		{path: '/personvern', element: <Privacy />},
+		{path: '/samfunn', element: <Community />},
 		{path: '/', element: <Content />},
 		{path: '*', element: <The404Page />},
 	] },
@@ -30,12 +34,12 @@ function Root() {
 	}, [location]);
 
 	return (
+		<NotificationProvider>
 			<GameProvider>
-				<NotificationProvider>
-					<Outlet />
-					<Navigation />
-				</NotificationProvider>
+				<Outlet />
+				<Navigation />
 			</GameProvider>
+		</NotificationProvider>
 	)
 }
 
